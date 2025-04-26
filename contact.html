@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet"><!--Poppins code copy paste(Get embed code)-->
+
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css"><!--Link:CSS-->
+
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /><!--Font awesome cdn first link copy paste-->
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-links"><a href="#newarrival">New Arrivals</a></p>
+            <p class="navbar-links"><a href="#mostwanted">Most Wanted</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact Us</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+    </nav>
+
+    <!--Side Navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-link">
+            <p class="side-navbar-links"><a href="index.html">Home</a></p>
+            <p class="side-navbar-links"><a href="#newarrival">New Arrivals</a></p>
+            <p class="side-navbar-links"><a href="#mostwanted">Most Wanted</a></p>
+            <p class="side-navbar-links"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-links"><a href="contact.html">Contact Us</a></p>
+        </div>
+
+    </div>
+
+    <!--Contact Form-->
+    <div class="slidertooffer">
+        <div class="contact_form">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name"name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email"name="email" required>
+
+                <label for="message">Message:</label>
+                <input type="text" id="message" name="message" required>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+<!--News-->
+
+<div class="news">
+    <h2>Join our News Letter</h2>
+    <p>Signup for our email newsletter to get exclusive discounts and updates and more.</p>
+    <div>
+        <input type="text" class="search">
+    </div>
+
+    <div>
+        <button>Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+</div>
+
+<!--Footer-->
+
+<div class="footer">
+    <div class="footer-container">
+        <div class="footer-box-1">
+            <h2 class="headingText">Nostra</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, sint?</p>
+            <div class="footer-icon-container">
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+            </div>
+        </div>
+    </div>
+
+    <p>@ 2025 Nostra.com</p>
+</div>
+
+
+
+    <script src="collection.js"></script>
+</body>
+
+</html>
